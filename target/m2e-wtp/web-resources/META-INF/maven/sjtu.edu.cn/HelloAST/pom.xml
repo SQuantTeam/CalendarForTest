@@ -19,7 +19,15 @@
     	<version>4.12</version>
     </dependency>
   </dependencies>
+
   <build>
     <finalName>HelloAST</finalName>
+    <plugins>
+    	<plugin>
+    		<groupId>org.pitest</groupId>
+    		<artifactId>pitest-maven</artifactId>
+    		<version>1.4.3</version>
+    	</plugin>
+    </plugins>
   </build>
 </project>
