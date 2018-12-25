@@ -1,4 +1,5 @@
-package DateRelated.Junit;
+package DateRelated.Junit.test;
+
 import java.util.Arrays;
 import java.util.Collection;
 

@@ -1,4 +1,5 @@
-package DateRelated.Junit;
+package DateRelated.Junit.test;
+
 import static org.junit.Assert.*;
 
 import java.util.Arrays;  
