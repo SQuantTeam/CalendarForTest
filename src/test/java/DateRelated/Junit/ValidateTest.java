@@ -19,10 +19,7 @@ import junit.framework.TestCase;
 
 @RunWith(Parameterized.class)
 public class ValidateTest extends TestCase{
-	public ValidateTest() {
-		// TODO Auto-generated constructor stub
-	}
-	
+
 	private int input1;
 	private int input2;
 	private int input3;
