@@ -1,0 +1,38 @@
+Manifest-Version: 1.0
+Class-Path: jul-to-slf4j-1.7.25.jar spring-jdbc-5.0.8.RELEASE.jar myba
+ tis-plus-support-2.3.jar validation-api-2.0.1.Final.jar log4j-api-2.1
+ 0.0.jar spring-boot-starter-aop-2.0.4.RELEASE.jar springfox-swagger-u
+ i-2.7.0.jar spring-boot-2.0.4.RELEASE.jar hibernate-validator-6.0.11.
+ Final.jar swagger-annotations-1.5.13.jar HikariCP-2.7.9.jar javax.mai
+ l-1.6.0.jar jackson-module-parameter-names-2.9.6.jar spring-boot-star
+ ter-2.0.4.RELEASE.jar easymock-3.6.jar spring-boot-autoconfigure-2.0.
+ 4.RELEASE.jar spring-tx-5.0.8.RELEASE.jar springfox-schema-2.7.0.jar 
+ log4j-to-slf4j-2.10.0.jar springfox-swagger2-2.7.0.jar mybatis-plus-c
+ ore-2.3.jar objenesis-3.0.1.jar spring-web-5.0.8.RELEASE.jar swagger-
+ models-1.5.13.jar jackson-datatype-jdk8-2.9.6.jar spring-beans-5.0.8.
+ RELEASE.jar spring-context-5.0.8.RELEASE.jar mybatis-spring-1.3.2.jar
+  springfox-swagger-common-2.7.0.jar spring-core-5.0.8.RELEASE.jar ref
+ lections-0.9.11.jar mybatis-spring-boot-starter-1.3.2.jar spring-expr
+ ession-5.0.8.RELEASE.jar spring-test-5.0.8.RELEASE.jar springfox-spi-
+ 2.7.0.jar spring-plugin-core-1.2.0.RELEASE.jar jackson-datatype-jsr31
+ 0-2.9.6.jar slf4j-api-1.7.25.jar byte-buddy-1.7.11.jar jackson-annota
+ tions-2.9.0.jar logback-classic-1.2.3.jar spring-boot-starter-web-2.0
+ .4.RELEASE.jar ant-1.10.3.jar aspectjweaver-1.8.13.jar jackson-core-2
+ .9.6.jar spring-aop-5.0.8.RELEASE.jar javassist-3.21.0-GA.jar jsqlpar
+ ser-1.1.jar mapstruct-1.1.0.Final.jar mybatis-3.4.6.jar spring-boot-d
+ evtools-2.0.4.RELEASE.jar tomcat-embed-core-8.5.32.jar mybatis-plus-2
+ .3.jar mybatis-spring-boot-autoconfigure-1.3.2.jar jackson-databind-2
+ .9.6.jar snakeyaml-1.19.jar hamcrest-core-1.3.jar classmate-1.3.4.jar
+  springfox-core-2.7.0.jar jboss-logging-3.3.2.Final.jar cglib-3.2.8.j
+ ar spring-webmvc-5.0.8.RELEASE.jar spring-boot-starter-tomcat-2.0.4.R
+ ELEASE.jar javax.annotation-api-1.3.2.jar mysql-connector-java-5.1.46
+ .jar thumbnailator-0.4.8.jar logback-core-1.2.3.jar junit-4.12.jar sp
+ ring-boot-starter-json-2.0.4.RELEASE.jar guava-18.0.jar spring-jcl-5.
+ 0.8.RELEASE.jar springfox-spring-web-2.7.0.jar asm-6.2.1.jar mybatis-
+ plus-boot-starter-2.3.jar mybatis-plus-generate-2.3.jar lombok-1.16.2
+ 2.jar spring-plugin-metadata-1.2.0.RELEASE.jar activation-1.1.jar ant
+ -launcher-1.10.3.jar spring-boot-starter-logging-2.0.4.RELEASE.jar to
+ mcat-embed-el-8.5.32.jar tomcat-embed-websocket-8.5.32.jar spring-boo
+ t-starter-jdbc-2.0.4.RELEASE.jar json-20170516.jar
+Main-Class: ast.CalendarApplication
+
