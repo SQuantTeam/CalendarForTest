@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="junit.ComputeDateTest" time="0.228" tests="42" errors="0" skipped="0" failures="0">
+<testsuite name="junit.ComputeDateTest" time="0.286" tests="42" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
@@ -45,7 +45,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_191\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="zh"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -64,46 +64,46 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testGetYearOfNextDay[0]" classname="junit.ComputeDateTest" time="0.113"/>
-  <testcase name="testGetYearOfNextDay[1]" classname="junit.ComputeDateTest" time="0.016"/>
-  <testcase name="testGetYearOfNextDay[2]" classname="junit.ComputeDateTest" time="0.004"/>
+  <testcase name="testGetYearOfNextDay[0]" classname="junit.ComputeDateTest" time="0.167"/>
+  <testcase name="testGetYearOfNextDay[1]" classname="junit.ComputeDateTest" time="0.004"/>
+  <testcase name="testGetYearOfNextDay[2]" classname="junit.ComputeDateTest" time="0.005"/>
   <testcase name="testGetYearOfNextDay[3]" classname="junit.ComputeDateTest" time="0.003"/>
-  <testcase name="testGetYearOfNextDay[4]" classname="junit.ComputeDateTest" time="0.004"/>
+  <testcase name="testGetYearOfNextDay[4]" classname="junit.ComputeDateTest" time="0.003"/>
   <testcase name="testGetYearOfNextDay[5]" classname="junit.ComputeDateTest" time="0.003"/>
   <testcase name="testGetYearOfNextDay[6]" classname="junit.ComputeDateTest" time="0.004"/>
   <testcase name="testGetYearOfNextDay[7]" classname="junit.ComputeDateTest" time="0.004"/>
-  <testcase name="testGetYearOfNextDay[8]" classname="junit.ComputeDateTest" time="0.002"/>
+  <testcase name="testGetYearOfNextDay[8]" classname="junit.ComputeDateTest" time="0.003"/>
   <testcase name="testGetYearOfNextDay[9]" classname="junit.ComputeDateTest" time="0.003"/>
   <testcase name="testGetYearOfNextDay[10]" classname="junit.ComputeDateTest" time="0.003"/>
-  <testcase name="testGetYearOfNextDay[11]" classname="junit.ComputeDateTest" time="0.001"/>
-  <testcase name="testGetYearOfNextDay[12]" classname="junit.ComputeDateTest" time="0.002"/>
-  <testcase name="testGetYearOfNextDay[13]" classname="junit.ComputeDateTest" time="0.002"/>
-  <testcase name="testGetYearOfNextDay[14]" classname="junit.ComputeDateTest" time="0.002"/>
-  <testcase name="testGetYearOfNextDay[15]" classname="junit.ComputeDateTest" time="0.003"/>
+  <testcase name="testGetYearOfNextDay[11]" classname="junit.ComputeDateTest" time="0.004"/>
+  <testcase name="testGetYearOfNextDay[12]" classname="junit.ComputeDateTest" time="0.003"/>
+  <testcase name="testGetYearOfNextDay[13]" classname="junit.ComputeDateTest" time="0.004"/>
+  <testcase name="testGetYearOfNextDay[14]" classname="junit.ComputeDateTest" time="0.003"/>
+  <testcase name="testGetYearOfNextDay[15]" classname="junit.ComputeDateTest" time="0.004"/>
   <testcase name="testGetYearOfNextDay[16]" classname="junit.ComputeDateTest" time="0.003"/>
-  <testcase name="testGetYearOfNextDay[17]" classname="junit.ComputeDateTest" time="0.002"/>
-  <testcase name="testGetYearOfNextDay[18]" classname="junit.ComputeDateTest" time="0.002"/>
-  <testcase name="testGetYearOfNextDay[19]" classname="junit.ComputeDateTest" time="0.002"/>
-  <testcase name="testGetYearOfNextDay[20]" classname="junit.ComputeDateTest" time="0.003"/>
-  <testcase name="testGetYearOfNextDay[21]" classname="junit.ComputeDateTest" time="0.002"/>
-  <testcase name="testGetYearOfNextDay[22]" classname="junit.ComputeDateTest" time="0.002"/>
-  <testcase name="testGetYearOfNextDay[23]" classname="junit.ComputeDateTest" time="0.001"/>
+  <testcase name="testGetYearOfNextDay[17]" classname="junit.ComputeDateTest" time="0.003"/>
+  <testcase name="testGetYearOfNextDay[18]" classname="junit.ComputeDateTest" time="0.005"/>
+  <testcase name="testGetYearOfNextDay[19]" classname="junit.ComputeDateTest" time="0.004"/>
+  <testcase name="testGetYearOfNextDay[20]" classname="junit.ComputeDateTest" time="0.004"/>
+  <testcase name="testGetYearOfNextDay[21]" classname="junit.ComputeDateTest" time="0.004"/>
+  <testcase name="testGetYearOfNextDay[22]" classname="junit.ComputeDateTest" time="0.003"/>
+  <testcase name="testGetYearOfNextDay[23]" classname="junit.ComputeDateTest" time="0.003"/>
   <testcase name="testGetYearOfNextDay[24]" classname="junit.ComputeDateTest" time="0.004"/>
   <testcase name="testGetYearOfNextDay[25]" classname="junit.ComputeDateTest" time="0.003"/>
-  <testcase name="testGetYearOfNextDay[26]" classname="junit.ComputeDateTest" time="0.012"/>
-  <testcase name="testGetYearOfNextDay[27]" classname="junit.ComputeDateTest" time="0"/>
-  <testcase name="testGetYearOfNextDay[28]" classname="junit.ComputeDateTest" time="0.002"/>
-  <testcase name="testGetYearOfNextDay[29]" classname="junit.ComputeDateTest" time="0.002"/>
+  <testcase name="testGetYearOfNextDay[26]" classname="junit.ComputeDateTest" time="0.003"/>
+  <testcase name="testGetYearOfNextDay[27]" classname="junit.ComputeDateTest" time="0.013"/>
+  <testcase name="testGetYearOfNextDay[28]" classname="junit.ComputeDateTest" time="0"/>
+  <testcase name="testGetYearOfNextDay[29]" classname="junit.ComputeDateTest" time="0.001"/>
   <testcase name="testGetYearOfNextDay[30]" classname="junit.ComputeDateTest" time="0.002"/>
   <testcase name="testGetYearOfNextDay[31]" classname="junit.ComputeDateTest" time="0.001"/>
-  <testcase name="testGetYearOfNextDay[32]" classname="junit.ComputeDateTest" time="0.002"/>
+  <testcase name="testGetYearOfNextDay[32]" classname="junit.ComputeDateTest" time="0.001"/>
   <testcase name="testGetYearOfNextDay[33]" classname="junit.ComputeDateTest" time="0.002"/>
-  <testcase name="testGetYearOfNextDay[34]" classname="junit.ComputeDateTest" time="0.002"/>
+  <testcase name="testGetYearOfNextDay[34]" classname="junit.ComputeDateTest" time="0"/>
   <testcase name="testGetYearOfNextDay[35]" classname="junit.ComputeDateTest" time="0.001"/>
   <testcase name="testGetYearOfNextDay[36]" classname="junit.ComputeDateTest" time="0.001"/>
-  <testcase name="testGetYearOfNextDay[37]" classname="junit.ComputeDateTest" time="0.002"/>
+  <testcase name="testGetYearOfNextDay[37]" classname="junit.ComputeDateTest" time="0.001"/>
   <testcase name="testGetYearOfNextDay[38]" classname="junit.ComputeDateTest" time="0.001"/>
-  <testcase name="testGetYearOfNextDay[39]" classname="junit.ComputeDateTest" time="0.003"/>
+  <testcase name="testGetYearOfNextDay[39]" classname="junit.ComputeDateTest" time="0.001"/>
   <testcase name="testGetYearOfNextDay[40]" classname="junit.ComputeDateTest" time="0.001"/>
   <testcase name="testGetYearOfNextDay[41]" classname="junit.ComputeDateTest" time="0.001"/>
 </testsuite>
