@@ -12,9 +12,9 @@ public class HomePageTest {
 
 	@Test
 	public void testEasy() {
-		driver.get("http://localhost:8081/#/hp");
-		String title = driver.getTitle();
-		Assert.assertTrue(title.contains(""));
+		driver.get("https://www.baidu.com/");  
+		String title = driver.getTitle();	
+		Assert.assertTrue(title.contains("")); 		
 	}
 
 	@BeforeTest
