@@ -1,4 +1,4 @@
-package testng;
+package regressiontest;
 
 import org.openqa.selenium.By;		
 import org.openqa.selenium.WebDriver;
