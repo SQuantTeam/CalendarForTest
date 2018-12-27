@@ -1,8 +1,10 @@
+testng\BaiduTest.class
 pitmutation\test\ComputeDateTest_1.class
 junit\ValidateTest.class
 pitmutation\test\ComputeDateTest_2.class
 pitmutation\manual\ValidateManualMutation.class
 pitmutation\test\ValidateTest_2.class
+testng\HomePageTest.class
 mock\JudgementMock.class
 pitmutation\test\ValidateTest_1.class
 junit\ComputeDateTest.class

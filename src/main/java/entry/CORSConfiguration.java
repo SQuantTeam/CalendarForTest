@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 
 
 @Configuration
-@ComponentScan({"ast.controller"})
+@ComponentScan({"controller"})
 public class CORSConfiguration extends WebMvcConfigurerAdapter {
 
     /**
