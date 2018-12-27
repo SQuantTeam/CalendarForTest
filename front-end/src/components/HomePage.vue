@@ -112,9 +112,9 @@ export default {
             between_dates: '',
             dates_post: '',
             next_date_result: {
-                year: 2012,
+                year: 2018,
                 month: 12,
-                date: 31
+                date: 27
             },
             this_day_result: {
                 day: '二'
