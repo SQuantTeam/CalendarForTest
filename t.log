@@ -1,0 +1,228 @@
+
+C:\Users\chantungyee\Desktop\osgi\HelloAST>mvn spring-boot:run 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< sjtu.edu.cn:HelloAST >------------------------
+[INFO] Building HelloAST Maven Webapp 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:1.4.3.RELEASE:run (default-cli) > test-compile @ HelloAST >>>
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (mkdir) @ HelloAST ---
+[WARNING] Parameter tasks is deprecated, use target instead
+[INFO] Executing tasks
+
+main:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1.1:exec (npm-install) @ HelloAST ---
+[INFO] npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\fsevents):
+[INFO] npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+[INFO] up to date in 11.984s
+[INFO] 
+[INFO] 
+[INFO] --- exec-maven-plugin:1.1.1:exec (npm build) @ HelloAST ---
+[INFO] 
+[INFO] > vue-front@1.0.0 build C:\Users\chantungyee\Desktop\osgi\HelloAST\front-end
+[INFO] > node build/build.js
+[INFO] 
+[INFO] Hash: 69e76fc73947cc7c59fc
+[INFO] Version: webpack 3.12.0
+[INFO] Time: 15723ms
+[INFO]                                                   Asset       Size  Chunks                    Chunk Names
+[INFO]     static/css/app.003528d4533ec2c84f51e6ca86c14c4c.css     188 kB       1  [emitted]         app
+[INFO]                  static/fonts/element-icons.6f0a763.ttf      11 kB          [emitted]         
+[INFO]                static/js/vendor.0f52e84acaa511549b07.js     747 kB       0  [emitted]  [big]  vendor
+[INFO]                   static/js/app.c822012ad8af90cd8319.js    4.18 kB       1  [emitted]         app
+[INFO]              static/js/manifest.2ae2e69a05c33dfc65f8.js  857 bytes       2  [emitted]         manifest
+[INFO]                       static/img/background.682aca5.jpg     840 kB          [emitted]  [big]  
+[INFO] static/css/app.003528d4533ec2c84f51e6ca86c14c4c.css.map     271 kB          [emitted]         
+[INFO]            static/js/vendor.0f52e84acaa511549b07.js.map    2.87 MB       0  [emitted]         vendor
+[INFO]               static/js/app.c822012ad8af90cd8319.js.map    19.3 kB       1  [emitted]         app
+[INFO]          static/js/manifest.2ae2e69a05c33dfc65f8.js.map    4.97 kB       2  [emitted]         manifest
+[INFO]                                              index.html  511 bytes          [emitted]         
+[INFO] 
+[INFO]   Build complete.
+[INFO] 
+[INFO]   Tip: built files are meant to be served over an HTTP server.
+[INFO]   Opening index.html over file:// won't work.
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:copy-resources (copy-resources) @ HelloAST ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 11 resources
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ HelloAST ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 11 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ HelloAST ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ HelloAST ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\chantungyee\Desktop\osgi\HelloAST\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ HelloAST ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< spring-boot-maven-plugin:1.4.3.RELEASE:run (default-cli) < test-compile @ HelloAST <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:1.4.3.RELEASE:run (default-cli) @ HelloAST ---
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.4.3.RELEASE)
+
+2018-12-27 15:08:46.065  INFO 28228 --- [           main] entry.Application                        : Starting Application on DESKTOP-ST6BNIN with PID 28228 (C:\Users\chantungyee\Desktop\osgi\HelloAST\target\classes started by chantungyee in C:\Users\chantungyee\Desktop\osgi\HelloAST)
+2018-12-27 15:08:46.067  INFO 28228 --- [           main] entry.Application                        : No active profile set, falling back to default profiles: default
+2018-12-27 15:08:46.125  INFO 28228 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@61d36ed7: startup date [Thu Dec 27 15:08:46 CST 2018]; root of context hierarchy
+2018-12-27 15:08:47.099  INFO 28228 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-12-27 15:08:47.623  INFO 28228 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8088 (http)
+2018-12-27 15:08:47.633  INFO 28228 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-12-27 15:08:47.633  INFO 28228 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2018-12-27 15:08:47.717  INFO 28228 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-27 15:08:47.717  INFO 28228 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1594 ms
+2018-12-27 15:08:47.847  INFO 28228 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-12-27 15:08:47.851  INFO 28228 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-27 15:08:47.852  INFO 28228 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-27 15:08:47.852  INFO 28228 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-12-27 15:08:47.852  INFO 28228 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-27 15:08:48.346  INFO 28228 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/calendar/dateOfNextDay],methods=[GET]}" onto public int entry.CalendarController.getDateOfNextDay(int,int,int)
+2018-12-27 15:08:48.347  INFO 28228 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/calendar/validDate],methods=[GET]}" onto public boolean entry.CalendarController.isValidDate(int,int,int)
+2018-12-27 15:08:48.347  INFO 28228 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/calendar/getMaxDay],methods=[GET]}" onto public int entry.CalendarController.setMaxDay(int,int)
+2018-12-27 15:08:48.347  INFO 28228 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/calendar/yearOfNextDay],methods=[GET]}" onto public int entry.CalendarController.getYearOfNextDay(int,int,int)
+2018-12-27 15:08:48.348  INFO 28228 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/getUser],methods=[GET]}" onto public void entry.UserController.getUser(java.lang.String,java.lang.String)
+2018-12-27 15:08:48.348  INFO 28228 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v2/api-docs],methods=[GET]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String)
+2018-12-27 15:08:48.350  INFO 28228 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-12-27 15:08:48.351  INFO 28228 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-12-27 15:08:48.351  INFO 28228 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-12-27 15:08:48.353  INFO 28228 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-27 15:08:48.353  INFO 28228 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-27 15:08:48.508  INFO 28228 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@61d36ed7: startup date [Thu Dec 27 15:08:46 CST 2018]; root of context hierarchy
+2018-12-27 15:08:48.552  INFO 28228 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/picture/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-27 15:08:48.552  INFO 28228 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-27 15:08:48.552  INFO 28228 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-27 15:08:48.579  INFO 28228 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-27 15:08:48.596  INFO 28228 --- [           main] oConfiguration$WelcomePageHandlerMapping : Adding welcome page: class path resource [public/index.html]
+2018-12-27 15:08:48.757  INFO 28228 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-12-27 15:08:48.766  INFO 28228 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-12-27 15:08:48.785  INFO 28228 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Found {0} custom documentation plugin(s)
+2018-12-27 15:08:48.793  INFO 28228 --- [           main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-12-27 15:08:48.796  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getDateOfNextDay was calendar-controller
+2018-12-27 15:08:48.798  INFO 28228 --- [           main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: getDateOfNextDay belongs to groups: [[ResourceGroup{groupName='calendar-controller', position=0, controller=entry.CalendarController}]] 
+2018-12-27 15:08:48.799  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method setMaxDay was calendar-controller
+2018-12-27 15:08:48.799  INFO 28228 --- [           main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: setMaxDay belongs to groups: [[ResourceGroup{groupName='calendar-controller', position=0, controller=entry.CalendarController}]] 
+2018-12-27 15:08:48.799  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method isValidDate was calendar-controller
+2018-12-27 15:08:48.799  INFO 28228 --- [           main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: isValidDate belongs to groups: [[ResourceGroup{groupName='calendar-controller', position=0, controller=entry.CalendarController}]] 
+2018-12-27 15:08:48.799  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getYearOfNextDay was calendar-controller
+2018-12-27 15:08:48.800  INFO 28228 --- [           main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: getYearOfNextDay belongs to groups: [[ResourceGroup{groupName='calendar-controller', position=0, controller=entry.CalendarController}]] 
+2018-12-27 15:08:48.800  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-12-27 15:08:48.800  INFO 28228 --- [           main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: error belongs to groups: [[ResourceGroup{groupName='basic-error-controller', position=0, controller=org.springframework.boot.autoconfigure.web.BasicErrorController}]] 
+2018-12-27 15:08:48.800  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-12-27 15:08:48.800  INFO 28228 --- [           main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: errorHtml belongs to groups: [[ResourceGroup{groupName='basic-error-controller', position=0, controller=org.springframework.boot.autoconfigure.web.BasicErrorController}]] 
+2018-12-27 15:08:48.801  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getUser was usercontroller相关api
+2018-12-27 15:08:48.801  INFO 28228 --- [           main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: getUser belongs to groups: [[ResourceGroup{groupName='usercontroller相关api', position=0, controller=entry.UserController}]] 
+2018-12-27 15:08:48.804  INFO 28228 --- [           main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/usercontroller相关api Description: usercontroller相关api Position: 0
+2018-12-27 15:08:48.805  INFO 28228 --- [           main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/calendar-controller Description: calendar-controller Position: 0
+2018-12-27 15:08:48.806  INFO 28228 --- [           main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/basic-error-controller Description: basic-error-controller Position: 0
+2018-12-27 15:08:48.819  INFO 28228 --- [           main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.lang.Object>(true)
+2018-12-27 15:08:48.819  INFO 28228 --- [           main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.util.Map<java.lang.String,java.lang.Object>(true)
+2018-12-27 15:08:48.822  INFO 28228 --- [           main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.Map<java.lang.String,java.lang.Object>(true)
+2018-12-27 15:08:48.822  INFO 28228 --- [           main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.util.Map<java.lang.String,java.lang.Object>(true)
+2018-12-27 15:08:48.828  INFO 28228 --- [           main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /error.org.springframework.boot.autoconfigure.web.BasicErrorController.error.DefaultGenericTypeNamingStrategy
+2018-12-27 15:08:48.828  INFO 28228 --- [           main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /error.org.springframework.boot.autoconfigure.web.BasicErrorController.error.DefaultGenericTypeNamingStrategy
+2018-12-27 15:08:48.836  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-12-27 15:08:48.839  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-12-27 15:08:48.841  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-12-27 15:08:48.842  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-12-27 15:08:48.843  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-12-27 15:08:48.843  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-12-27 15:08:48.844  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-12-27 15:08:48.845  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-12-27 15:08:48.846  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-12-27 15:08:48.847  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-12-27 15:08:48.847  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-12-27 15:08:48.848  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-12-27 15:08:48.849  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-12-27 15:08:48.849  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-12-27 15:08:48.850  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-12-27 15:08:48.851  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method error was basic-error-controller
+2018-12-27 15:08:48.854  INFO 28228 --- [           main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: org.springframework.web.servlet.ModelAndView(true)
+2018-12-27 15:08:48.854  INFO 28228 --- [           main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key org.springframework.web.servlet.ModelAndView(true)
+2018-12-27 15:08:48.856  INFO 28228 --- [           main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.ModelAndView(true)
+2018-12-27 15:08:48.856  INFO 28228 --- [           main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.ModelAndView(true)
+2018-12-27 15:08:48.879  INFO 28228 --- [           main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: org.springframework.web.servlet.ModelAndView(true)
+2018-12-27 15:08:48.879  INFO 28228 --- [           main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key org.springframework.web.servlet.ModelAndView(true)
+2018-12-27 15:08:48.880  INFO 28228 --- [           main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.ModelAndView(true)
+2018-12-27 15:08:48.880  INFO 28228 --- [           main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.ModelAndView(true)
+2018-12-27 15:08:48.880  INFO 28228 --- [           main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.View(true)
+2018-12-27 15:08:48.880  INFO 28228 --- [           main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.View(true)
+2018-12-27 15:08:48.882  INFO 28228 --- [           main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: org.springframework.web.servlet.View(true)
+2018-12-27 15:08:48.882  INFO 28228 --- [           main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.View(true)
+2018-12-27 15:08:48.882  INFO 28228 --- [           main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /error.org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml.DefaultGenericTypeNamingStrategy
+2018-12-27 15:08:48.882  INFO 28228 --- [           main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /error.org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml.DefaultGenericTypeNamingStrategy
+2018-12-27 15:08:48.883  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-12-27 15:08:48.883  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-12-27 15:08:48.884  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-12-27 15:08:48.884  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-12-27 15:08:48.885  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-12-27 15:08:48.885  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-12-27 15:08:48.886  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-12-27 15:08:48.887  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-12-27 15:08:48.887  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-12-27 15:08:48.888  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-12-27 15:08:48.888  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-12-27 15:08:48.889  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-12-27 15:08:48.890  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-12-27 15:08:48.892  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-12-27 15:08:48.892  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-12-27 15:08:48.893  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method errorHtml was basic-error-controller
+2018-12-27 15:08:48.909  INFO 28228 --- [           main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: int(true)
+2018-12-27 15:08:48.910  INFO 28228 --- [           main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key int(true)
+2018-12-27 15:08:48.910  INFO 28228 --- [           main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: int(true)
+2018-12-27 15:08:48.910  INFO 28228 --- [           main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key int(true)
+2018-12-27 15:08:48.910  INFO 28228 --- [           main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /calendar/dateOfNextDay.entry.CalendarController.getDateOfNextDay.DefaultGenericTypeNamingStrategy
+2018-12-27 15:08:48.910  INFO 28228 --- [           main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /calendar/dateOfNextDay.entry.CalendarController.getDateOfNextDay.DefaultGenericTypeNamingStrategy
+2018-12-27 15:08:48.916  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getDateOfNextDay was calendar-controller
+2018-12-27 15:08:48.917  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getDateOfNextDay was calendar-controller
+2018-12-27 15:08:48.921  INFO 28228 --- [           main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: int(true)
+2018-12-27 15:08:48.921  INFO 28228 --- [           main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key int(true)
+2018-12-27 15:08:48.921  INFO 28228 --- [           main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: int(true)
+2018-12-27 15:08:48.921  INFO 28228 --- [           main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key int(true)
+2018-12-27 15:08:48.921  INFO 28228 --- [           main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /calendar/yearOfNextDay.entry.CalendarController.getYearOfNextDay.DefaultGenericTypeNamingStrategy
+2018-12-27 15:08:48.921  INFO 28228 --- [           main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /calendar/yearOfNextDay.entry.CalendarController.getYearOfNextDay.DefaultGenericTypeNamingStrategy
+2018-12-27 15:08:48.923  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getYearOfNextDay was calendar-controller
+2018-12-27 15:08:48.924  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getYearOfNextDay was calendar-controller
+2018-12-27 15:08:48.926  INFO 28228 --- [           main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: boolean(true)
+2018-12-27 15:08:48.926  INFO 28228 --- [           main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key boolean(true)
+2018-12-27 15:08:48.926  INFO 28228 --- [           main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: boolean(true)
+2018-12-27 15:08:48.926  INFO 28228 --- [           main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key boolean(true)
+2018-12-27 15:08:48.927  INFO 28228 --- [           main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /calendar/validDate.entry.CalendarController.isValidDate.DefaultGenericTypeNamingStrategy
+2018-12-27 15:08:48.927  INFO 28228 --- [           main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /calendar/validDate.entry.CalendarController.isValidDate.DefaultGenericTypeNamingStrategy
+2018-12-27 15:08:48.929  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method isValidDate was calendar-controller
+2018-12-27 15:08:48.930  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method isValidDate was calendar-controller
+2018-12-27 15:08:48.931  INFO 28228 --- [           main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: int(true)
+2018-12-27 15:08:48.931  INFO 28228 --- [           main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key int(true)
+2018-12-27 15:08:48.931  INFO 28228 --- [           main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: int(true)
+2018-12-27 15:08:48.931  INFO 28228 --- [           main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key int(true)
+2018-12-27 15:08:48.931  INFO 28228 --- [           main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /calendar/getMaxDay.entry.CalendarController.setMaxDay.DefaultGenericTypeNamingStrategy
+2018-12-27 15:08:48.931  INFO 28228 --- [           main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /calendar/getMaxDay.entry.CalendarController.setMaxDay.DefaultGenericTypeNamingStrategy
+2018-12-27 15:08:48.933  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method setMaxDay was calendar-controller
+2018-12-27 15:08:48.934  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method setMaxDay was calendar-controller
+2018-12-27 15:08:48.936  INFO 28228 --- [           main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.Void(true)
+2018-12-27 15:08:48.936  INFO 28228 --- [           main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.lang.Void(true)
+2018-12-27 15:08:48.936  INFO 28228 --- [           main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.Void(true)
+2018-12-27 15:08:48.936  INFO 28228 --- [           main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.lang.Void(true)
+2018-12-27 15:08:48.936  INFO 28228 --- [           main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /user/getUser.entry.UserController.getUser.DefaultGenericTypeNamingStrategy
+2018-12-27 15:08:48.936  INFO 28228 --- [           main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /user/getUser.entry.UserController.getUser.DefaultGenericTypeNamingStrategy
+2018-12-27 15:08:48.937  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getUser was usercontroller相关api
+2018-12-27 15:08:48.939  INFO 28228 --- [           main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getUser was usercontroller相关api
+2018-12-27 15:08:48.985  INFO 28228 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8088 (http)
+2018-12-27 15:08:48.989  INFO 28228 --- [           main] entry.Application                        : Started Application in 3.272 seconds (JVM running for 47.598)

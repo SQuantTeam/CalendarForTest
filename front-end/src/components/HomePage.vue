@@ -137,7 +137,7 @@ export default {
             var year = this.next_date_input.getYear();
             var month = this.next_date_input.getMonth();
             var date = this.next_date_input.getDate();
-            var url = 'http://localhost:8087/HelloAST/calendar/dateOfNextDay';
+            var url = 'http://localhost:8088/calendar/dateOfNextDay';
             axios.get(url, {
 　　            params: { 'year': year, 'month': month, 'day': date },
                 headers: {'X-Requested-With': 'XMLHttpRequest', 'Access-Control-Allow-Origin': '*'},
