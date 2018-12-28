@@ -1,319 +1,361 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="77" passed="77">
+<testng-results skipped="0" failed="0" total="87" passed="87">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="595" started-at="2018-12-28T04:23:53Z" finished-at="2018-12-28T04:23:53Z">
+  <suite name="Suite" duration-ms="481" started-at="2018-12-28T04:40:38Z" finished-at="2018-12-28T04:40:38Z">
     <groups>
     </groups>
-    <test name="JUnitTests" duration-ms="595" started-at="2018-12-28T04:23:53Z" finished-at="2018-12-28T04:23:53Z">
+    <test name="JUnitTests" duration-ms="481" started-at="2018-12-28T04:40:38Z" finished-at="2018-12-28T04:40:38Z">
+      <class name="junit.ValidateTest_testSetMaxDay">
+        <test-method status="PASS" signature="testSetMaxDay()[pri:0, instance:testSetMaxDay[0](junit.ValidateTest_testSetMaxDay)]" name="testSetMaxDay[0]" duration-ms="1" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetMaxDay[0] -->
+        <test-method status="PASS" signature="testSetMaxDay()[pri:0, instance:testSetMaxDay[1](junit.ValidateTest_testSetMaxDay)]" name="testSetMaxDay[1]" duration-ms="0" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetMaxDay[1] -->
+        <test-method status="PASS" signature="testSetMaxDay()[pri:0, instance:testSetMaxDay[2](junit.ValidateTest_testSetMaxDay)]" name="testSetMaxDay[2]" duration-ms="1" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetMaxDay[2] -->
+        <test-method status="PASS" signature="testSetMaxDay()[pri:0, instance:testSetMaxDay[4](junit.ValidateTest_testSetMaxDay)]" name="testSetMaxDay[4]" duration-ms="0" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetMaxDay[4] -->
+        <test-method status="PASS" signature="testSetMaxDay()[pri:0, instance:testSetMaxDay[3](junit.ValidateTest_testSetMaxDay)]" name="testSetMaxDay[3]" duration-ms="0" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetMaxDay[3] -->
+        <test-method status="PASS" signature="testSetMaxDay()[pri:0, instance:testSetMaxDay[5](junit.ValidateTest_testSetMaxDay)]" name="testSetMaxDay[5]" duration-ms="0" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetMaxDay[5] -->
+        <test-method status="PASS" signature="testSetMaxDay()[pri:0, instance:testSetMaxDay[6](junit.ValidateTest_testSetMaxDay)]" name="testSetMaxDay[6]" duration-ms="0" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetMaxDay[6] -->
+        <test-method status="PASS" signature="testSetMaxDay()[pri:0, instance:testSetMaxDay[7](junit.ValidateTest_testSetMaxDay)]" name="testSetMaxDay[7]" duration-ms="1" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetMaxDay[7] -->
+        <test-method status="PASS" signature="testSetMaxDay()[pri:0, instance:testSetMaxDay[8](junit.ValidateTest_testSetMaxDay)]" name="testSetMaxDay[8]" duration-ms="1" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetMaxDay[8] -->
+        <test-method status="PASS" signature="testSetMaxDay()[pri:0, instance:testSetMaxDay[9](junit.ValidateTest_testSetMaxDay)]" name="testSetMaxDay[9]" duration-ms="0" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetMaxDay[9] -->
+      </class> <!-- junit.ValidateTest_testSetMaxDay -->
       <class name="junit.ComputeDateTest_testGetDateOfNextDay">
-        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[0](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[0]" duration-ms="1" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[0](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[0]" duration-ms="94" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetDateOfNextDay[0] -->
-        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[1](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[1]" duration-ms="1" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[1](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[1]" duration-ms="4" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetDateOfNextDay[1] -->
-        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[2](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[2]" duration-ms="0" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[2](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[2]" duration-ms="4" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetDateOfNextDay[2] -->
-        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[3](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[3]" duration-ms="1" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[3](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[3]" duration-ms="6" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetDateOfNextDay[3] -->
-        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[5](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[5]" duration-ms="1" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetDateOfNextDay[5] -->
-        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[4](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[4]" duration-ms="0" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[4](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[4]" duration-ms="4" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetDateOfNextDay[4] -->
-        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[6](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[6]" duration-ms="1" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[5](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[5]" duration-ms="3" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDateOfNextDay[5] -->
+        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[6](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[6]" duration-ms="3" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetDateOfNextDay[6] -->
-        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[7](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[7]" duration-ms="1" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[7](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[7]" duration-ms="3" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetDateOfNextDay[7] -->
-        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[8](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[8]" duration-ms="2" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[8](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[8]" duration-ms="3" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetDateOfNextDay[8] -->
-        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[9](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[9]" duration-ms="0" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[9](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[9]" duration-ms="3" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetDateOfNextDay[9] -->
-        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[10](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[10]" duration-ms="0" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[10](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[10]" duration-ms="3" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetDateOfNextDay[10] -->
-        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[11](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[11]" duration-ms="0" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[11](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[11]" duration-ms="3" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetDateOfNextDay[11] -->
-        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[12](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[12]" duration-ms="0" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[12](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[12]" duration-ms="3" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetDateOfNextDay[12] -->
-        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[13](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[13]" duration-ms="0" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[13](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[13]" duration-ms="4" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetDateOfNextDay[13] -->
-        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[14](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[14]" duration-ms="2" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[14](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[14]" duration-ms="3" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetDateOfNextDay[14] -->
-        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[15](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[15]" duration-ms="2" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[15](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[15]" duration-ms="6" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetDateOfNextDay[15] -->
-        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[16](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[16]" duration-ms="1" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[16](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[16]" duration-ms="3" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetDateOfNextDay[16] -->
-        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[17](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[17]" duration-ms="1" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[17](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[17]" duration-ms="3" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetDateOfNextDay[17] -->
-        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[18](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[18]" duration-ms="1" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[18](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[18]" duration-ms="3" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetDateOfNextDay[18] -->
-        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[19](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[19]" duration-ms="0" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[19](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[19]" duration-ms="3" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetDateOfNextDay[19] -->
-        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[20](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[20]" duration-ms="0" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[20](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[20]" duration-ms="3" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetDateOfNextDay[20] -->
-        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[21](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[21]" duration-ms="1" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[21](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[21]" duration-ms="3" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetDateOfNextDay[21] -->
-        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[22](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[22]" duration-ms="1" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[22](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[22]" duration-ms="3" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetDateOfNextDay[22] -->
-        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[24](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[24]" duration-ms="1" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetDateOfNextDay[24] -->
-        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[23](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[23]" duration-ms="0" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[23](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[23]" duration-ms="4" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetDateOfNextDay[23] -->
-        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[25](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[25]" duration-ms="1" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[24](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[24]" duration-ms="3" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDateOfNextDay[24] -->
+        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[25](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[25]" duration-ms="3" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetDateOfNextDay[25] -->
-        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[26](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[26]" duration-ms="0" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[26](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[26]" duration-ms="3" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetDateOfNextDay[26] -->
-        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[27](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[27]" duration-ms="0" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[27](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[27]" duration-ms="3" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetDateOfNextDay[27] -->
-        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[28](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[28]" duration-ms="1" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[28](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[28]" duration-ms="3" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetDateOfNextDay[28] -->
-        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[29](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[29]" duration-ms="0" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[29](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[29]" duration-ms="3" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetDateOfNextDay[29] -->
-        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[30](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[30]" duration-ms="1" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[30](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[30]" duration-ms="3" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetDateOfNextDay[30] -->
-        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[31](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[31]" duration-ms="0" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[31](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[31]" duration-ms="4" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetDateOfNextDay[31] -->
-        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[32](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[32]" duration-ms="0" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[32](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[32]" duration-ms="3" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetDateOfNextDay[32] -->
-        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[33](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[33]" duration-ms="1" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[33](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[33]" duration-ms="6" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetDateOfNextDay[33] -->
-        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[34](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[34]" duration-ms="1" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetDateOfNextDay()[pri:0, instance:testGetDateOfNextDay[34](junit.ComputeDateTest_testGetDateOfNextDay)]" name="testGetDateOfNextDay[34]" duration-ms="3" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetDateOfNextDay[34] -->
       </class> <!-- junit.ComputeDateTest_testGetDateOfNextDay -->
       <class name="junit.ComputeDateTest_testGetYearOfNextDay">
-        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[0](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[0]" duration-ms="109" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[0](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[0]" duration-ms="6" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetYearOfNextDay[0] -->
-        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[1](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[1]" duration-ms="12" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[1](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[1]" duration-ms="6" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetYearOfNextDay[1] -->
-        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[2](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[2]" duration-ms="9" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[2](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[2]" duration-ms="4" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetYearOfNextDay[2] -->
-        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[3](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[3]" duration-ms="4" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[3](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[3]" duration-ms="3" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetYearOfNextDay[3] -->
-        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[4](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[4]" duration-ms="5" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[4](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[4]" duration-ms="2" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetYearOfNextDay[4] -->
-        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[5](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[5]" duration-ms="6" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[5](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[5]" duration-ms="2" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetYearOfNextDay[5] -->
-        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[6](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[6]" duration-ms="8" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[6](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[6]" duration-ms="2" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetYearOfNextDay[6] -->
-        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[7](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[7]" duration-ms="13" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[7](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[7]" duration-ms="2" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetYearOfNextDay[7] -->
-        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[8](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[8]" duration-ms="5" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[8](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[8]" duration-ms="2" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetYearOfNextDay[8] -->
-        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[9](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[9]" duration-ms="7" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[9](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[9]" duration-ms="2" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetYearOfNextDay[9] -->
-        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[10](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[10]" duration-ms="5" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[10](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[10]" duration-ms="2" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetYearOfNextDay[10] -->
-        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[11](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[11]" duration-ms="10" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[11](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[11]" duration-ms="1" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetYearOfNextDay[11] -->
-        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[12](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[12]" duration-ms="6" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[12](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[12]" duration-ms="1" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetYearOfNextDay[12] -->
-        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[13](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[13]" duration-ms="8" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[13](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[13]" duration-ms="1" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetYearOfNextDay[13] -->
-        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[14](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[14]" duration-ms="6" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[14](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[14]" duration-ms="3" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetYearOfNextDay[14] -->
-        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[15](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[15]" duration-ms="6" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[15](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[15]" duration-ms="5" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetYearOfNextDay[15] -->
-        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[16](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[16]" duration-ms="4" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[16](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[16]" duration-ms="1" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetYearOfNextDay[16] -->
-        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[17](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[17]" duration-ms="7" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[17](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[17]" duration-ms="2" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetYearOfNextDay[17] -->
-        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[18](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[18]" duration-ms="4" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[18](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[18]" duration-ms="1" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetYearOfNextDay[18] -->
-        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[19](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[19]" duration-ms="5" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[19](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[19]" duration-ms="1" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetYearOfNextDay[19] -->
-        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[20](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[20]" duration-ms="4" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[20](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[20]" duration-ms="0" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetYearOfNextDay[20] -->
-        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[21](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[21]" duration-ms="20" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[21](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[21]" duration-ms="1" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetYearOfNextDay[21] -->
-        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[22](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[22]" duration-ms="4" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[22](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[22]" duration-ms="1" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetYearOfNextDay[22] -->
-        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[23](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[23]" duration-ms="4" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[23](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[23]" duration-ms="1" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetYearOfNextDay[23] -->
-        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[24](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[24]" duration-ms="2" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[24](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[24]" duration-ms="1" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetYearOfNextDay[24] -->
-        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[25](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[25]" duration-ms="2" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[25](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[25]" duration-ms="1" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetYearOfNextDay[25] -->
-        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[26](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[26]" duration-ms="2" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[26](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[26]" duration-ms="0" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetYearOfNextDay[26] -->
-        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[27](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[27]" duration-ms="15" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[27](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[27]" duration-ms="1" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetYearOfNextDay[27] -->
-        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[28](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[28]" duration-ms="2" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[28](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[28]" duration-ms="1" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetYearOfNextDay[28] -->
-        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[29](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[29]" duration-ms="2" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[29](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[29]" duration-ms="1" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetYearOfNextDay[29] -->
-        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[30](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[30]" duration-ms="2" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[30](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[30]" duration-ms="1" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetYearOfNextDay[30] -->
-        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[31](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[31]" duration-ms="3" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[31](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[31]" duration-ms="0" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetYearOfNextDay[31] -->
-        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[32](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[32]" duration-ms="2" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetYearOfNextDay[32] -->
-        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[33](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[33]" duration-ms="2" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[33](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[33]" duration-ms="1" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetYearOfNextDay[33] -->
-        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[34](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[34]" duration-ms="9" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[32](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[32]" duration-ms="0" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetYearOfNextDay[32] -->
+        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[34](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[34]" duration-ms="0" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetYearOfNextDay[34] -->
-        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[35](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[35]" duration-ms="17" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[35](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[35]" duration-ms="0" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetYearOfNextDay[35] -->
-        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[36](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[36]" duration-ms="3" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[36](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[36]" duration-ms="1" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetYearOfNextDay[36] -->
-        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[37](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[37]" duration-ms="1" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[37](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[37]" duration-ms="1" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetYearOfNextDay[37] -->
-        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[38](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[38]" duration-ms="1" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[38](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[38]" duration-ms="1" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetYearOfNextDay[38] -->
-        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[39](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[39]" duration-ms="1" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[39](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[39]" duration-ms="0" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetYearOfNextDay[39] -->
-        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[40](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[40]" duration-ms="1" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[40](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[40]" duration-ms="0" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetYearOfNextDay[40] -->
-        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[41](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[41]" duration-ms="0" started-at="2018-12-28T12:23:53Z" finished-at="2018-12-28T12:23:53Z">
+        <test-method status="PASS" signature="testGetYearOfNextDay()[pri:0, instance:testGetYearOfNextDay[41](junit.ComputeDateTest_testGetYearOfNextDay)]" name="testGetYearOfNextDay[41]" duration-ms="1" started-at="2018-12-28T12:40:38Z" finished-at="2018-12-28T12:40:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetYearOfNextDay[41] -->
