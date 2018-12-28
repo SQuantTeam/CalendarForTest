@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<suite name="Suite">
+<test junit="true" name="JUnitTests">
+<classes>
+<class name="junit.ComputeDateTest_testGetDateOfNextDay"/>
+<class name="junit.ComputeDateTest_testGetYearOfNextDay"/>
+<class name="junit.ValidateTest_testSetMaxDay"/>
+</classes>
+</test>
+</suite>
