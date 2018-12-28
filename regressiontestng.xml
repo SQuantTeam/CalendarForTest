@@ -1,22 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-    <!-- <test name="TestNGs" thread-count="5">
-        <packages>
-            <package name="testng" />
-        </packages>
-    </test> -->
     <test name="JUnitTests" junit="true">
-        <!-- <packages>
-            <package name="junit" />
-        </packages> -->
         <classes>
-            <class name="junit.ComputeDateTest" />
+            <class name="junit.ValidateTest_testSetMaxDay">
+            </class>
         </classes>
     </test>
-    <!-- <test name="RegressionTests" junit="true">
-        <packages>
-            <package name="junit" />
-        </packages>
-    </test> -->
 </suite>

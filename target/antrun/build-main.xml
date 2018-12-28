@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <project name="maven-antrun-" default="main"  >
 <target name="main">
-  <mkdir dir="C:\Users\chantungyee\Desktop\osgi\HelloAST/front-end/static/"/>
+  <mkdir dir="C:\Users\chantungyee\Desktop\ASTHW\eclipse-workspace\HelloAST/front-end/static/"/>
   <delete failonerror="false">
-    <fileset dir="C:\Users\chantungyee\Desktop\osgi\HelloAST/src/main/resources/public/"/>
+    <fileset dir="C:\Users\chantungyee\Desktop\ASTHW\eclipse-workspace\HelloAST/src/main/resources/public/"/>
   </delete>
 </target>
 </project>

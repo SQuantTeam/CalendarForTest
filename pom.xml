@@ -190,7 +190,7 @@
 				<version>2.19</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>regressiontestng.xml</suiteXmlFile>
+						<suiteXmlFile>regressiontest\regression_1545970911734.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

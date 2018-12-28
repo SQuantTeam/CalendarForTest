@@ -19,7 +19,7 @@ import org.easymock.EasyMock;
 import junit.framework.TestCase;
 
 @RunWith(Parameterized.class)
-public class ValidateTest extends TestCase{
+public class ValidateTest_testSetMaxDay extends TestCase{
 
 	private int input1;
 	private int input2;
@@ -177,7 +177,7 @@ public class ValidateTest extends TestCase{
 	}
 	
 	
-    public ValidateTest(int input1, int input2, int expected){  
+    public ValidateTest_testSetMaxDay(int input1, int input2, int expected){  
         this.input1 = input1;  
         this.input2 = input2;
         this.input3 = input3;
