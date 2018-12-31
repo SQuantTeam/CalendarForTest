@@ -52,9 +52,20 @@ public class CalendarController {
                                 @RequestParam("day") int day) {
         return computeDate.getDateOfNextDay(year, month, day);
     }
+    
+    @ApiOperation(value = "获取第二天日期(月）")
+    @GetMapping("/monthOfNextDay")
+    public int getMonthOfNextDay(@ApiParam("年份")
+                                @RequestParam("year") int year,
+                                @ApiParam("月份")
+                                @RequestParam("month") int month,
+                                @ApiParam("天")
+                                @RequestParam("day") int day) {
+        return computeDate.getMonthOfNextDay(year, month, day);
+    }
 
 
-    @ApiOperation(value = "获取第二天的年份")
+    @ApiOperation(value = "获取第二天日期(年）")
     @GetMapping("/yearOfNextDay")
     public int getYearOfNextDay(@ApiParam("年份")
                                 @RequestParam("year") int year,

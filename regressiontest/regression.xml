@@ -2,7 +2,7 @@
 <suite name="Suite">
 <test junit="true" name="JUnitTests">
 <classes>
-<class name="junit.ComputeDateTest_testGetDateOfNextDay"/>
+<class name="junit.ComputeDateTest_testGetMonthOfNextDay"/>
 </classes>
 </test>
 </suite>
