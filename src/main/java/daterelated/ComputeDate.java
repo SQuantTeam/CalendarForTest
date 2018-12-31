@@ -1,5 +1,7 @@
 package daterelated;
 
+import org.apache.commons.lang3.StringUtils;
+
 public class ComputeDate {
 
 	private Validate val;
@@ -61,6 +63,7 @@ public class ComputeDate {
 	}
 	
 	public int getNumOfDaysBetweenTwoDates(int start_year, int start_month, int start_day, int end_year, int end_month, int end_day) {
+		
 		if (!val.isValidDate(start_year, start_month, start_day)) {
 			return -1;
 		}
@@ -87,4 +90,25 @@ public class ComputeDate {
 		return num;
 	}
 
+	public String getTheDateAfterAFewDays(int start_year, int start_month, int start_day, int num) {
+		
+		if (!val.isValidDate(start_year, start_month, start_day)) {
+			return "0";
+		}
+		
+		while(num > 0) {
+			num --;
+			int year = start_year;
+			int month = start_month;
+			int day = start_day;
+			start_year = getYearOfNextDay(year, month, day);
+			start_month = getMonthOfNextDay(year, month, day);
+			start_day = getDateOfNextDay(year, month, day);
+		}
+		
+		int[] date = {start_year, start_month, start_day};
+		String end_date = StringUtils.join(date, '-');
+
+		return end_date;
+	}
 }

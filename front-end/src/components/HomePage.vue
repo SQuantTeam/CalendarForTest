@@ -57,13 +57,16 @@
                 </div>
                 <div class="block">
                     <el-date-picker
-                    v-model="dates_post"
+                    v-model="date_after_afewdays"
                     type="date"
-                    placeholder="选择日期">
+                    placeholder="选择日期"
+                    value-format="yyyy-MM-dd">
                     </el-date-picker>
+                    <el-input type="number" v-model="afew" style="width:30%;float:right"></el-input>
                 </div>
-                <el-button type="primary" class="caculate">计算</el-button>
-                {{dates_post_result.year}} 年 {{dates_post_result.month}} 月 {{dates_post_result.date}} 日
+                
+                <el-button type="primary" class="caculate" @click="get_the_date_after_a_few_days">计算</el-button>
+                <span v-show="date_after_afewdays_result.is_valid"> {{date_after_afewdays_result.year}} 年 {{date_after_afewdays_result.month}} 月 {{date_after_afewdays_result.date}} 日</span>
 
             </el-card>
 
@@ -109,10 +112,11 @@ export default {
   data() {
     return {
       para: ["date", "month", "year"],
+      afew: 1,
       next_date_input: "",
       this_day_input: "",
       between_dates: "",
-      dates_post: "",
+      date_after_afewdays: "",
       next_date_result: {
         year: "",
         month: "",
@@ -122,10 +126,11 @@ export default {
       this_day_result: {
         day: "二"
       },
-      dates_post_result: {
+      date_after_afewdays_result: {
         year: 2012,
         month: 12,
-        date: 31
+        date: 31,
+        is_valid: false,
       },
       between_dates_result: {
         counts: 10,
@@ -135,88 +140,95 @@ export default {
   },
   methods: {
     get_next_date() {
-      console.log(this.next_date_input);
-      var next_date_input = this.next_date_input.split("-");
-      console.log(typeof this.next_date_input);
-      var self = this;
-      var year = next_date_input[0];
-      var month = next_date_input[1];
-      var date = next_date_input[2];
-      console.log(year, month, date);
+        if (this.next_date_input == '') {
+            this.$message.error('忘记输入日期了哦！');
+            return
+        }
+        var next_date_input = this.next_date_input.split("-");
+        console.log(typeof this.next_date_input);
+        var self = this;
+        var year = next_date_input[0];
+        var month = next_date_input[1];
+        var date = next_date_input[2];
+        console.log(year, month, date);
 
-      var result = {
-        year: " ",
-        month: " ",
-        date: " ",
-        is_valid: true
-      };
+        var result = {
+            year: " ",
+            month: " ",
+            date: " ",
+            is_valid: true
+        };
 
-      axios
-        .get("http://localhost:8088/calendar/dateOfNextDay", {
-          params: { year: year, month: month, day: date },
-          headers: {
-            "X-Requested-With": "XMLHttpRequest",
-            "Access-Control-Allow-Origin": "*"
-          }
-        })
-        .then(function(response) {
-          console.log(response);
-          result.date = response.data;
-        })
-        .catch(function(error) {
-          alert(error);
-        });
+        axios
+            .get("http://localhost:8088/calendar/dateOfNextDay", {
+            params: { year: year, month: month, day: date },
+            headers: {
+                "X-Requested-With": "XMLHttpRequest",
+                "Access-Control-Allow-Origin": "*"
+            }
+            })
+            .then(function(response) {
+            console.log(response);
+            result.date = response.data;
+            })
+            .catch(function(error) {
+            alert(error);
+            });
 
-      axios
-        .get("http://localhost:8088/calendar/monthOfNextDay", {
-          params: { year: year, month: month, day: date },
-          headers: {
-            "X-Requested-With": "XMLHttpRequest",
-            "Access-Control-Allow-Origin": "*"
-          }
-        })
-        .then(function(response) {
-          console.log(response);
-          result.month = response.data;
-        })
-        .catch(function(error) {
-          alert(error);
-        });
+        axios
+            .get("http://localhost:8088/calendar/monthOfNextDay", {
+            params: { year: year, month: month, day: date },
+            headers: {
+                "X-Requested-With": "XMLHttpRequest",
+                "Access-Control-Allow-Origin": "*"
+            }
+            })
+            .then(function(response) {
+            console.log(response);
+            result.month = response.data;
+            })
+            .catch(function(error) {
+            alert(error);
+            });
 
-      axios
-        .get("http://localhost:8088/calendar/yearOfNextDay", {
-          params: { year: year, month: month, day: date },
-          headers: {
-            "X-Requested-With": "XMLHttpRequest",
-            "Access-Control-Allow-Origin": "*"
-          }
-        })
-        .then(function(response) {
-          console.log(response);
-          result.year = response.data;
-        })
-        .catch(function(error) {
-          alert(error);
-        });
+        axios
+            .get("http://localhost:8088/calendar/yearOfNextDay", {
+            params: { year: year, month: month, day: date },
+            headers: {
+                "X-Requested-With": "XMLHttpRequest",
+                "Access-Control-Allow-Origin": "*"
+            }
+            })
+            .then(function(response) {
+            console.log(response);
+            result.year = response.data;
+            })
+            .catch(function(error) {
+            alert(error);
+            });
 
-      console.log(result);
-      this.next_date_result = result;
+        console.log(result);
+        this.next_date_result = result;
     },
 
     get_this_day() {
-      console.log(this.next_date_input);
-      console.log(this.next_date_input.getDate());
-      var self = this;
-      var year = this.next_date_input.getYear();
-      var month = this.next_date_input.getMonth();
-      var date = this.next_date_input.getDate();
-      var url = "http://localhost:8087/HelloAST/calendar/dayOfThisDay";
+        console.log(this.next_date_input);
+        console.log(this.next_date_input.getDate());
+        var self = this;
+        var year = this.next_date_input.getYear();
+        var month = this.next_date_input.getMonth();
+        var date = this.next_date_input.getDate();
+        var url = "http://localhost:8087/HelloAST/calendar/dayOfThisDay";
     },
 
     get_between_dates() {
+        if (this.between_dates == '') {
+            this.$message.error('忘记输入日期了哦！');
+            return
+        }
         var start_date = this.between_dates[0].split('-');
         var end_date = this.between_dates[1].split('-');
-        
+
         var start_year = start_date[0];
         var start_month = start_date[1];
         var start_day = start_date[2];
@@ -244,6 +256,47 @@ export default {
         
         
         console.log(this.between_dates)
+    },
+
+    get_the_date_after_a_few_days() {
+        if (this.date_after_afewdays == '') {
+            this.$message.error('忘记输入日期了哦！');
+            return;
+        } else if(this.afew<0){
+            this.$message.error('请输入一个大于等于零的整数');
+            return;
+        } else if(this.afew != parseInt(this.afew)) {
+            this.$message.error('请输入一个大于等于零的整数');
+            return;
+        }
+        console.log(this.date_after_afewdays)
+        // getTheDateAfterAFewDays
+        var date = this.date_after_afewdays.split('-');
+        var year = date[0];
+        var month = date[1];
+        var day = date[2];
+        var num = this.afew;
+        var self = this;
+        console.log(year, month, day, num)
+        axios
+        .get("http://localhost:8088/calendar/dateAfterAFewDays", {
+            params: { year: year, month: month, day: day, num: num },
+            headers: {
+                "X-Requested-With": "XMLHttpRequest",
+                "Access-Control-Allow-Origin": "*"
+            }
+        })
+        .then(function(response) {
+            console.log(response);
+            var result = response.data.split('-');
+            self.date_after_afewdays_result.year = result[0];
+            self.date_after_afewdays_result.month = result[1];
+            self.date_after_afewdays_result.date = result[2];
+            self.date_after_afewdays_result.is_valid = true;
+        })
+        .catch(function(error) {
+            alert(error);
+        });
     }
   }
 };

@@ -3,11 +3,13 @@ pitmutation\test\ValidateTest_2.class
 junit\ComputeDateTest_testGetYearOfNextDay.class
 pitmutation\manual\ComputeDateManualMutation.class
 junit\ComputeDateTest_testGetDateOfNextDay.class
+junit\ComputeDateTest_testGetNumOfDaysBetweenTwoDates.class
 pitmutation\test\ComputeDateTest_1.class
 junit\ValidateTest_testSetMaxDay.class
 pitmutation\test\ComputeDateTest_2.class
 pitmutation\manual\ValidateManualMutation.class
 testng\HomePageTest.class
 mock\JudgementMock.class
+junit\ComputeDateTest_testGetMonthOfNextDay.class
 pitmutation\test\ValidateTest_1.class
 mock\ValidateMock.class

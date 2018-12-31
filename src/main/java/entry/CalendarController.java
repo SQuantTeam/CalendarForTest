@@ -93,6 +93,19 @@ public class CalendarController {
         return computeDate.getNumOfDaysBetweenTwoDates(start_year, start_month, start_day, end_year, end_month, end_day);
     }
 
+    @ApiOperation(value = "推算几天后的日期")
+    @GetMapping("/dateAfterAFewDays")
+    public String getTheDateAfterAFewDays(@ApiParam("年份")
+    							@RequestParam("year") int year,
+    							@ApiParam("月份")
+    							@RequestParam("month") int month,
+    							@ApiParam("天")
+    							@RequestParam("day") int day,
+    							@ApiParam("天数")
+								@RequestParam("num") int num) {
+        return computeDate.getTheDateAfterAFewDays(year, month, day, num);
+    }
+    
 //    @ApiOperation(value = "获取日期在当年的第几周")
 //    @GetMapping("/weekNum")
 //    public int getWeekNum(@ApiParam("年份")
