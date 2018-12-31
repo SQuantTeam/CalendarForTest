@@ -75,6 +75,23 @@ public class CalendarController {
                                 @RequestParam("day") int day) {
         return computeDate.getYearOfNextDay(year, month, day);
     }
+    
+    @ApiOperation(value = "获取两日期相差的天数")
+    @GetMapping("/numOfDaysBetweenTwoDates")
+    public int getYeaOfNextDay(@ApiParam("起始天")
+                                @RequestParam("start_year") int start_year,
+                                @ApiParam("起始天")
+                                @RequestParam("start_month") int start_month,
+                                @ApiParam("起始天")
+                                @RequestParam("start_day") int start_day,
+                                @ApiParam("起始天")
+                                @RequestParam("end_year") int end_year,
+                                @ApiParam("起始天")
+                                @RequestParam("end_month") int end_month,
+                                @ApiParam("结束天")
+                                @RequestParam("end_day") int end_day) {
+        return computeDate.getNumOfDaysBetweenTwoDates(start_year, start_month, start_day, end_year, end_month, end_day);
+    }
 
 //    @ApiOperation(value = "获取日期在当年的第几周")
 //    @GetMapping("/weekNum")

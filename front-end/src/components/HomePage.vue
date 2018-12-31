@@ -43,11 +43,12 @@
                     type="daterange"
                     range-separator="至"
                     start-placeholder="开始日期"
-                    end-placeholder="结束日期">
+                    end-placeholder="结束日期"
+                    value-format="yyyy-MM-dd">
                     </el-date-picker>
                 </div>
-                <el-button type="primary" class="caculate">计算</el-button>
-                {{between_dates_result.counts}} 天
+                <el-button type="primary" class="caculate" @click="get_between_dates">计算</el-button>
+                <span v-show="between_dates_result.is_valid">{{between_dates_result.counts}} 天 </span>
             </el-card>
 
             <el-card class="card next-date">
@@ -127,7 +128,8 @@ export default {
         date: 31
       },
       between_dates_result: {
-        counts: 10
+        counts: 10,
+        is_valid: false
       }
     };
   },
@@ -200,7 +202,7 @@ export default {
       console.log(result);
       this.next_date_result = result;
     },
-    
+
     get_this_day() {
       console.log(this.next_date_input);
       console.log(this.next_date_input.getDate());
@@ -209,6 +211,39 @@ export default {
       var month = this.next_date_input.getMonth();
       var date = this.next_date_input.getDate();
       var url = "http://localhost:8087/HelloAST/calendar/dayOfThisDay";
+    },
+
+    get_between_dates() {
+        var start_date = this.between_dates[0].split('-');
+        var end_date = this.between_dates[1].split('-');
+        
+        var start_year = start_date[0];
+        var start_month = start_date[1];
+        var start_day = start_date[2];
+        var end_year = end_date[0];
+        var end_month = end_date[1];
+        var end_day = end_date[2];
+
+        var self = this;
+        axios
+        .get("http://localhost:8088/calendar/numOfDaysBetweenTwoDates", {
+          params: { start_year: start_year, start_month: start_month, start_day: start_day, end_year: end_year, end_month: end_month, end_day: end_day },
+          headers: {
+            "X-Requested-With": "XMLHttpRequest",
+            "Access-Control-Allow-Origin": "*"
+          }
+        })
+        .then(function(response) {
+          console.log(response);
+          self.between_dates_result.counts = response.data;
+          self.between_dates_result.is_valid = true;
+        })
+        .catch(function(error) {
+          alert(error);
+        });
+        
+        
+        console.log(this.between_dates)
     }
   }
 };

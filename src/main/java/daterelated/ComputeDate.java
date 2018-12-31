@@ -59,5 +59,32 @@ public class ComputeDate {
 		}
 		return nextYear;
 	}
+	
+	public int getNumOfDaysBetweenTwoDates(int start_year, int start_month, int start_day, int end_year, int end_month, int end_day) {
+		if (!val.isValidDate(start_year, start_month, start_day)) {
+			return -1;
+		}
+		
+		if (!val.isValidDate(end_year, end_month, end_day)) {
+			return -1;
+		}
+		
+		if (!val.isValidDuration(start_year, start_month, start_day, end_year, end_month, end_day)) {
+			return -1;
+		}
+		
+		int num = 0;
+		
+		while(!(start_year==end_year && start_month==end_month && start_day==end_day)) {
+			int year = start_year;
+			int month = start_month;
+			int day = start_day;
+			start_year = getYearOfNextDay(year, month, day);
+			start_month = getMonthOfNextDay(year, month, day);
+			start_day = getDateOfNextDay(year, month, day);
+			num++;
+		}
+		return num;
+	}
 
 }
