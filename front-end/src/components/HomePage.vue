@@ -19,22 +19,6 @@
 
             <el-card class="card next-date">
                 <div slot="header" class="clearfix">
-                    <span>某一天是星期几？</span>
-                </div>
-                <div class="block">
-                    <el-date-picker
-                    v-model="this_day_input"
-                    type="date"
-                    placeholder="选择日期">
-                    </el-date-picker>
-                </div>
-                <el-button type="primary" class="caculate">计算</el-button>
-                星期 {{this_day_result.day}} 
-
-            </el-card>
-
-            <el-card class="card next-date">
-                <div slot="header" class="clearfix">
                     <span>两个日期间相差多少天？</span>
                 </div>
                 <div class="block">
@@ -92,7 +76,7 @@
   height: 200px;
   position: relative;
   position: relative;
-  margin: 6% 10%;
+  margin: 15% 3%;
   opacity: 0.95;
   float: left;
 }
