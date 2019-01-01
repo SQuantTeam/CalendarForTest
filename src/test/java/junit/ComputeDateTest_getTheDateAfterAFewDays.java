@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class ComputeDateTest_testGetTheDateAfterAFewDays {
+public class ComputeDateTest_getTheDateAfterAFewDays {
 
 	@Test
 	public void test() {
