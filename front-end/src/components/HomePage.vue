@@ -144,7 +144,7 @@ export default {
         };
 
         axios
-            .get("http://localhost:8088/calendar/dateOfNextDay", {
+            .get("http://10.0.1.240:8088/calendar/dateOfNextDay", {
             params: { year: year, month: month, day: date },
             headers: {
                 "X-Requested-With": "XMLHttpRequest",
@@ -160,7 +160,7 @@ export default {
             });
 
         axios
-            .get("http://localhost:8088/calendar/monthOfNextDay", {
+            .get("http://10.0.1.240:8088/calendar/monthOfNextDay", {
             params: { year: year, month: month, day: date },
             headers: {
                 "X-Requested-With": "XMLHttpRequest",
@@ -176,7 +176,7 @@ export default {
             });
 
         axios
-            .get("http://localhost:8088/calendar/yearOfNextDay", {
+            .get("http://10.0.1.240:8088/calendar/yearOfNextDay", {
             params: { year: year, month: month, day: date },
             headers: {
                 "X-Requested-With": "XMLHttpRequest",
@@ -202,7 +202,7 @@ export default {
         var year = this.next_date_input.getYear();
         var month = this.next_date_input.getMonth();
         var date = this.next_date_input.getDate();
-        var url = "http://localhost:8087/HelloAST/calendar/dayOfThisDay";
+        var url = "http://10.0.1.240:8087/HelloAST/calendar/dayOfThisDay";
     },
 
     get_between_dates() {
@@ -222,7 +222,7 @@ export default {
 
         var self = this;
         axios
-        .get("http://localhost:8088/calendar/numOfDaysBetweenTwoDates", {
+        .get("http://10.0.1.240:8088/calendar/numOfDaysBetweenTwoDates", {
           params: { start_year: start_year, start_month: start_month, start_day: start_day, end_year: end_year, end_month: end_month, end_day: end_day },
           headers: {
             "X-Requested-With": "XMLHttpRequest",
@@ -263,7 +263,7 @@ export default {
         var self = this;
         console.log(year, month, day, num)
         axios
-        .get("http://localhost:8088/calendar/dateAfterAFewDays", {
+        .get("http://10.0.1.240:8088/calendar/dateAfterAFewDays", {
             params: { year: year, month: month, day: day, num: num },
             headers: {
                 "X-Requested-With": "XMLHttpRequest",
