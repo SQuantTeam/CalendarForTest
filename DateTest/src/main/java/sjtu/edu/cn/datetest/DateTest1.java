@@ -12,8 +12,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.concurrent.TimeUnit;
 
 
+/**
+ * ui test for generation 1
+ */
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
-public class DateTestCase {
+public class DateTest1 {
     private WebDriver driver;
     private boolean acceptNextAlert = true;
     private StringBuffer verificationErrors = new StringBuffer();
@@ -37,10 +40,13 @@ public class DateTestCase {
         driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='下一天是哪一天？'])[1]/following::span[4]")).click();
         sleep(200);
         String text = driver.findElement(By.xpath("//*[@id=\"app\"]/div/div/div[1]/div[2]/span")).getText();
+        sleep(200);
         System.out.println(text);
         TestCase.assertEquals("2019 年 1 月 4 日", text);
-        sleep(200);
+    }
 
+    @Test
+    public void testFunction2() throws Exception {
 //        function 2 test
         driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='两个日期间相差多少天？'])[1]/following::input[1]")).click();
         sleep(200);
@@ -51,10 +57,13 @@ public class DateTestCase {
         driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='至'])[1]/following::button[1]")).click();
         sleep(200);
         String text1 = driver.findElement(By.xpath("//*[@id=\"app\"]/div/div/div[2]/div[2]/span")).getText();
+        sleep(200);
         System.out.println(text1);
         TestCase.assertEquals("56 天", text1);
-        sleep(200);
+    }
 
+    @Test
+    public void testFunction3() throws Exception {
 //        function 3 test
         driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='推算几天后的日期？'])[1]/following::input[1]")).click();
         sleep(200);
@@ -83,9 +92,9 @@ public class DateTestCase {
         driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='推算几天后的日期？'])[1]/following::span[4]")).click();
         sleep(200);
         String text2 = driver.findElement(By.xpath("//*[@id=\"app\"]/div/div/div[3]/div[2]/span")).getText();
+        sleep(200);
         System.out.println(text2);
         TestCase.assertEquals("2019 年 1 月 26 日", text2);
-        sleep(200);
     }
 
     public static void sleep(int milliseconds) {
