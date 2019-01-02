@@ -31,3 +31,5 @@ target/
 *.iml
 out/
 log/
+target
+test-output
