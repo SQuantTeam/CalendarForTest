@@ -52,9 +52,20 @@ public class CalendarController {
                                 @RequestParam("day") int day) {
         return computeDate.getDateOfNextDay(year, month, day);
     }
+    
+    @ApiOperation(value = "获取第二天日期(月）")
+    @GetMapping("/monthOfNextDay")
+    public int getMonthOfNextDay(@ApiParam("年份")
+                                @RequestParam("year") int year,
+                                @ApiParam("月份")
+                                @RequestParam("month") int month,
+                                @ApiParam("天")
+                                @RequestParam("day") int day) {
+        return computeDate.getMonthOfNextDay(year, month, day);
+    }
 
 
-    @ApiOperation(value = "获取第二天的年份")
+    @ApiOperation(value = "获取第二天日期(年）")
     @GetMapping("/yearOfNextDay")
     public int getYearOfNextDay(@ApiParam("年份")
                                 @RequestParam("year") int year,
@@ -64,7 +75,37 @@ public class CalendarController {
                                 @RequestParam("day") int day) {
         return computeDate.getYearOfNextDay(year, month, day);
     }
+    
+    @ApiOperation(value = "获取两日期相差的天数")
+    @GetMapping("/numOfDaysBetweenTwoDates")
+    public int getYeaOfNextDay(@ApiParam("起始天")
+                                @RequestParam("start_year") int start_year,
+                                @ApiParam("起始天")
+                                @RequestParam("start_month") int start_month,
+                                @ApiParam("起始天")
+                                @RequestParam("start_day") int start_day,
+                                @ApiParam("起始天")
+                                @RequestParam("end_year") int end_year,
+                                @ApiParam("起始天")
+                                @RequestParam("end_month") int end_month,
+                                @ApiParam("结束天")
+                                @RequestParam("end_day") int end_day) {
+        return computeDate.getNumOfDaysBetweenTwoDates(start_year, start_month, start_day, end_year, end_month, end_day);
+    }
 
+    @ApiOperation(value = "推算几天后的日期")
+    @GetMapping("/dateAfterAFewDays")
+    public String getTheDateAfterAFewDays(@ApiParam("年份")
+    							@RequestParam("year") int year,
+    							@ApiParam("月份")
+    							@RequestParam("month") int month,
+    							@ApiParam("天")
+    							@RequestParam("day") int day,
+    							@ApiParam("天数")
+								@RequestParam("num") int num) {
+        return computeDate.getTheDateAfterAFewDays(year, month, day, num);
+    }
+    
 //    @ApiOperation(value = "获取日期在当年的第几周")
 //    @GetMapping("/weekNum")
 //    public int getWeekNum(@ApiParam("年份")

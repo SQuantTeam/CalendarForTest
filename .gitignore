@@ -2,6 +2,7 @@
 # Compiled class file
 *.class
 
+<<<<<<< HEAD
 # Log file
 *.log
 
@@ -33,3 +34,8 @@ target/
 =======
 *.class
 >>>>>>> e2b7306c12f208c27e5757dc90f61021647b48cd
+=======
+target
+
+test-output
+>>>>>>> a8f17aedb50da15d7b2926a5f6af5da7a3a91130
