@@ -111,7 +111,7 @@
 				</dependencies>
 				<configuration>
 					<targetClasses>
-						<param>daterelated.*</param>
+						<param>com.sjtu.daterelated.*</param>
 					</targetClasses>
 					<targetTests>
 						<param>regression_using_test_priortization.*</param>

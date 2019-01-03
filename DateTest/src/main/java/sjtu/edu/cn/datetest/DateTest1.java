@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 
 
 /**
- * ui test for generation 1
+ * ui test generation 2
  */
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class DateTest1 {
@@ -30,72 +30,181 @@ public class DateTest1 {
         driver.get("http://10.0.1.240:8088/#/hp");
     }
 
+
     @Test
-    public void testFunction1() throws Exception {
-//        function 1 test
+    public void testFunctionA1() throws Exception {
         driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='下一天是哪一天？'])[1]/following::input[1]")).click();
-        sleep(200);
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='六'])[1]/following::span[5]")).click();
-        sleep(200);
+        sleep(100);
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='计算'])[3]/following::button[3]")).click();
+        sleep(100);
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='计算'])[3]/following::button[4]")).click();
+        sleep(100);
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='计算'])[3]/following::button[4]")).click();
+        sleep(100);
+        // ERROR: Caught exception [ERROR: Unsupported command [doubleClick | xpath=(.//*[normalize-space(text()) and normalize-space(.)='计算'])[3]/following::button[4] | ]]
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='计算'])[3]/following::button[4]")).click();
+        sleep(100);
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='六'])[1]/following::div[18]")).click();
+        sleep(100);
         driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='下一天是哪一天？'])[1]/following::span[4]")).click();
-        sleep(200);
-        String text = driver.findElement(By.xpath("//*[@id=\"app\"]/div/div/div[1]/div[2]/span")).getText();
-        sleep(200);
-        System.out.println(text);
-        TestCase.assertEquals("2019 年 1 月 4 日", text);
-    }
-
-    @Test
-    public void testFunction2() throws Exception {
-//        function 2 test
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='两个日期间相差多少天？'])[1]/following::input[1]")).click();
-        sleep(200);
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='六'])[2]/following::span[5]")).click();
-        sleep(200);
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='六'])[3]/following::span[33]")).click();
-        sleep(200);
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='至'])[1]/following::button[1]")).click();
-        sleep(200);
-        String text1 = driver.findElement(By.xpath("//*[@id=\"app\"]/div/div/div[2]/div[2]/span")).getText();
-        sleep(200);
+        sleep(100);
+        String text1 = driver.findElement(By.xpath("//*[@id=\"app\"]/div/div/div[1]/div[2]/span")).getText();
+        sleep(100);
         System.out.println(text1);
-        TestCase.assertEquals("56 天", text1);
+        TestCase.assertEquals("2020 年 4 月 16 日", text1);
     }
 
     @Test
-    public void testFunction3() throws Exception {
-//        function 3 test
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='推算几天后的日期？'])[1]/following::input[1]")).click();
-        sleep(200);
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='六'])[4]/following::span[25]")).click();
-        sleep(200);
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='推算几天后的日期？'])[1]/following::input[2]")).clear();
-        sleep(200);
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='推算几天后的日期？'])[1]/following::input[2]")).sendKeys("2");
-        sleep(200);
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='推算几天后的日期？'])[1]/following::input[2]")).click();
-        sleep(200);
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='推算几天后的日期？'])[1]/following::input[2]")).click();
-        sleep(200);
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='推算几天后的日期？'])[1]/following::input[2]")).click();
-        sleep(200);
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='推算几天后的日期？'])[1]/following::input[2]")).clear();
-        sleep(200);
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='推算几天后的日期？'])[1]/following::input[2]")).sendKeys("4");
-        sleep(200);
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='推算几天后的日期？'])[1]/following::input[2]")).clear();
-        sleep(200);
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='推算几天后的日期？'])[1]/following::input[2]")).sendKeys("3");
-        sleep(200);
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='推算几天后的日期？'])[1]/following::input[2]")).click();
-        sleep(200);
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='推算几天后的日期？'])[1]/following::span[4]")).click();
-        sleep(200);
-        String text2 = driver.findElement(By.xpath("//*[@id=\"app\"]/div/div/div[3]/div[2]/span")).getText();
-        sleep(200);
+    public void testFunctionA2() throws Exception {
+        driver.findElement(By.xpath("//div[@id='app']/div/div")).click();
+        sleep(100);
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='下一天是哪一天？'])[1]/following::input[1]")).click();
+        sleep(100);
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='六'])[1]/following::span[17]")).click();
+        sleep(100);
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='下一天是哪一天？'])[1]/following::span[4]")).click();
+        sleep(100);
+        String text2 = driver.findElement(By.xpath("//*[@id=\"app\"]/div/div/div[1]/div[2]/span")).getText();
+        sleep(100);
         System.out.println(text2);
-        TestCase.assertEquals("2019 年 1 月 26 日", text2);
+        TestCase.assertEquals("2019 年 1 月 16 日", text2);
     }
+
+    @Test
+    public void testFunctionA3() throws Exception {
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='计算'])[1]/preceding::div[3]")).click();
+        sleep(100);
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='下一天是哪一天？'])[1]/following::input[1]")).click();
+        sleep(100);
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='计算'])[3]/following::button[3]")).click();
+        sleep(100);
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='六'])[1]/following::span[32]")).click();
+        sleep(100);
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='下一天是哪一天？'])[1]/following::button[1]")).click();
+        sleep(100);
+        String text3 = driver.findElement(By.xpath("//*[@id=\"app\"]/div/div/div[1]/div[2]/span")).getText();
+        sleep(100);
+        System.out.println(text3);
+        TestCase.assertEquals("2020 年 1 月 30 日", text3);
+    }
+
+    @Test
+    public void testFunctionA4() throws Exception {
+        driver.findElement(By.xpath("//div[@id='app']/div/div")).click();
+        sleep(100);
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='下一天是哪一天？'])[1]/following::input[1]")).click();
+        sleep(100);
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='计算'])[3]/following::button[3]")).click();
+        sleep(100);
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='六'])[1]/following::span[31]")).click();
+        sleep(100);
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='下一天是哪一天？'])[1]/following::button[1]")).click();
+        sleep(100);
+        String text4 = driver.findElement(By.xpath("//*[@id=\"app\"]/div/div/div[1]/div[2]/span")).getText();
+        sleep(100);
+        System.out.println(text4);
+        TestCase.assertEquals("2020 年 1 月 29 日", text4);
+    }
+
+    @Test
+    public void testFunctionA5() throws Exception {
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='下一天是哪一天？'])[1]/following::input[1]")).click();
+        sleep(100);
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='计算'])[3]/following::button[3]")).click();
+        sleep(100);
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='计算'])[3]/following::button[4]")).click();
+        sleep(100);
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='计算'])[3]/following::button[4]")).click();
+        sleep(100);
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='计算'])[3]/following::button[4]")).click();
+        sleep(100);
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='六'])[1]/following::span[33]")).click();
+        sleep(100);
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='下一天是哪一天？'])[1]/following::button[1]")).click();
+        sleep(100);
+        String text5 = driver.findElement(By.xpath("//*[@id=\"app\"]/div/div/div[1]/div[2]/span")).getText();
+        sleep(100);
+        System.out.println(text5);
+        TestCase.assertEquals("2020 年 5 月 1 日", text5);
+    }
+
+    @Test
+    public void testFunctionA6() throws Exception {
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='计算'])[1]/preceding::div[3]")).click();
+        sleep(100);
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='下一天是哪一天？'])[1]/following::input[1]")).click();
+        sleep(100);
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='计算'])[3]/following::button[3]")).click();
+        sleep(100);
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='计算'])[3]/following::button[4]")).click();
+        sleep(100);
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='计算'])[3]/following::button[4]")).click();
+        sleep(100);
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='计算'])[3]/following::button[4]")).click();
+        sleep(100);
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='六'])[1]/following::span[32]")).click();
+        sleep(100);
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='下一天是哪一天？'])[1]/following::button[1]")).click();
+        sleep(100);
+        String text6 = driver.findElement(By.xpath("//*[@id=\"app\"]/div/div/div[1]/div[2]/span")).getText();
+        sleep(100);
+        System.out.println(text6);
+        TestCase.assertEquals("2020 年 4 月 30 日", text6);
+    }
+
+    @Test
+    public void testFunctionA7() throws Exception {
+        driver.findElement(By.xpath("//div[@id='app']/div/div")).click();
+        sleep(100);
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='下一天是哪一天？'])[1]/following::input[1]")).click();
+        sleep(100);
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='计算'])[3]/following::button[3]")).click();
+        sleep(100);
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='六'])[1]/following::span[33]")).click();
+        sleep(100);
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='下一天是哪一天？'])[1]/following::span[4]")).click();
+        sleep(100);
+        String text7 = driver.findElement(By.xpath("//*[@id=\"app\"]/div/div/div[1]/div[2]/span")).getText();
+        sleep(100);
+        System.out.println(text7);
+        TestCase.assertEquals("2020 年 1 月 31 日", text7);
+    }
+
+    @Test
+    public void testFunctionA8() throws Exception {
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='下一天是哪一天？'])[1]/following::input[1]")).click();
+        sleep(100);
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='下一天是哪一天？'])[1]/following::input[1]")).click();
+        sleep(100);
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='计算'])[3]/following::button[3]")).click();
+        sleep(100);
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='六'])[1]/following::span[34]")).click();
+        sleep(100);
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='下一天是哪一天？'])[1]/following::span[4]")).click();
+        sleep(100);
+        String text8 = driver.findElement(By.xpath("//*[@id=\"app\"]/div/div/div[1]/div[2]/span")).getText();
+        sleep(100);
+        System.out.println(text8);
+        TestCase.assertEquals("2020 年 2 月 1 日", text8);
+    }
+
+    @Test
+    public void testFunctionA9() throws Exception {
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='下一天是哪一天？'])[1]/following::input[1]")).click();
+        sleep(100);
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='计算'])[3]/following::button[3]")).click();
+        sleep(100);
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='计算'])[3]/following::button[4]")).click();
+        sleep(100);
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='六'])[1]/following::span[34]")).click();
+        sleep(100);
+        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='下一天是哪一天？'])[1]/following::button[1]")).click();
+        String text9 = driver.findElement(By.xpath("//*[@id=\"app\"]/div/div/div[1]/div[2]/span")).getText();
+        sleep(100);
+        System.out.println(text9);
+        TestCase.assertEquals("2020 年 2 月 29 日", text9);
+    }
+
 
     public static void sleep(int milliseconds) {
         try {

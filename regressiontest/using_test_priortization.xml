@@ -3,11 +3,11 @@
 <suite name="Suite">
   <test junit="true" thread-count="5" name="Test">
     <classes>
-      <class name="regression_using_test_priortization.ValidateTest_isValidDate"/>
-      <class name="regression_using_test_priortization.ValidateTest_setMaxDay"/>
-      <class name="regression_using_test_priortization.ComputeDateTest_getDateOfNextDay"/>
-      <class name="regression_using_test_priortization.ComputeDateTest_getMonthOfNextDay"/>
-      <class name="regression_using_test_priortization.ComputeDateTest_getYearOfNextDay"/>
+      <class name="ValidateTest_isValidDate"/>
+      <class name="ValidateTest_setMaxDay"/>
+      <class name="ComputeDateTest_getDateOfNextDay"/>
+      <class name="ComputeDateTest_getMonthOfNextDay"/>
+      <class name="ComputeDateTest_getYearOfNextDay"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
