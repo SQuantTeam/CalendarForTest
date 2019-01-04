@@ -3,7 +3,7 @@ package com.sjtu.daterelated;
 public class Validate {
 
 	public int setMaxDay(int year, int month) {
-		int maxDay = 0;
+		int maxDay = 31;
 		if (month < 1 || month > 12) {
 			return 0;
 		}
@@ -16,8 +16,6 @@ public class Validate {
 			} else {
 				maxDay = 28;
 			}
-		} else {
-			maxDay = 31;
 		}
 
 		return maxDay;
